@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="NivoSlider/scripts/jquery-1.9.0.min.js/"></script>
+    <script src="NivoSlider/scripts/jquery.nivo.slider.js"></script>
+
+    <link rel="stylesheet" href="NivoSlider/themes/default/default.css">
+    <link rel="stylesheet" href="NivoSlider/themes/nivo-slider.css">
+    <link rel="stylesheet" type="text/css" href="default.css">
+
+</head>
+
+<header>
+    <img src="gamestoplogo.png" alt="">
+    <div>
+        <!--horizontal navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="default.htm">Home</a></li>
+                <li><a href="">PS4</a>
+                    <ul>
+                        <li>
+                            <a href="">Consoles</a>
+                        </li>
+                        <li>
+                            <a href="">Games
+                        </a>
+                        </li>
+                        <li>
+                            <a href="">Accessories</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">Xbox One</a>
+                    <ul>
+                        <li>
+                            <a href="">Consoles</a>
+                        </li>
+                        <li>
+                            <a href="">Games
+                        </a>
+                        </li>
+                        <li>
+                            <a href="">Accessories</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">Switch</a>
+                    <ul>
+                        <li>
+                            <a href="">Consoles</a>
+                        </li>
+                        <li>
+                            <a href="">Games
+                        </a>
+                        </li>
+                        <li>
+                            <a href="">Accessories</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">Calendar</a></li>
+                <li><a href="">ESRB</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+</header>
+
+<body>
+    <!--nivoslider-->
+    <div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider">
+            <a href=""><img src="NivoSlider/Images/xboxone.jpg"></a>
+            <a href=""><img src="NivoSlider/Images/switch.jpg"></a>
+            <a href=""><img src="NivoSlider/Images/ww2.jpg"></a>
+            <a href=""><img src="NivoSlider/Images/mario.jpg"></a>
+            <a href=""><img src="NivoSlider/Images/battle.jpg"></a>
+            <a href=""><img src="NivoSlider/Images/south.jpg"></a>
+        </div>
+    </div>
+    <script>
+        $(window).load(function() {
+            $("#slider").nivoSlider();
+        })
+    </script>
+    <!--ps4 list-->
+    <section id="ps4">
+        <h1> <img src="ps4logo.jpg" alt="" usemap="#ps4con"> <br>Best Selling</h1>
+
+        <map name="ps4con">
+                <area shape="rect" coords="0,0 ,200,100" href="" alt="">
+        <ol>
+            <li>
+                <a href="">
+                    <h4>Call Of Duty WW2<br></h4><img src="../ps4img/ww2ps4.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h5>STAR WARS Battle Front II<br></h5><img src="../ps4img/bf2ps4.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h5>Need For Speed Payback<br></h5><img src="../ps4img/nfsps4.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h5>Assassins Creed Origins<br></h5><img src="../ps4img/acops4.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h4>Grand Theft Auto V<br></h4> <img src="../ps4img/gta5ps4.jpg" alt=""></a>
+            </li>
+        </ol>
+
+    </section>
+<!--xbox list-->
+    <section id="xbox">
+
+        <h2> <img src="xboxlogo.jpg" alt="" usemap="#xboxcon"> <br> Best Selling</h2>
+
+        <map name="xboxcon">
+            <area shape="rect" coords="0,0 ,200,100" href="" alt="">
+        </map>
+
+        <ol>
+            <li>
+                <a href="">
+                    <h4>Call of Duty WW2<br></h4><img src="../xboxoneimg/codww2xbox1.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h5>STAR WARS Battle Front II<br></h5><img src="../xboxoneimg/bf2xbox1.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h5>Player Unknowns Battle Ground<br></h5><img src="../xboxoneimg/pubg.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h5>Need for Speed Payback<br></h5><img src="../xboxoneimg/nfsxbox1.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h5>Assassins Creed Origins<br></h5><img src="../xboxoneimg/acoxbox1.jpg" alt=""></a>
+            </li>
+        </ol>
+    </section>
+    <!--switch list-->
+    <section id="switch">
+        <h3><img src="ninlogo.png" alt="" usemap="#nincon"> <br> Best Selling</h3>
+
+        <map name="nincon">
+                <area shape="rect" coords="0,0 ,200,100" href="" alt="">
+        <ol>
+            <li>
+                <a href="">
+                    <h4>Mario Odyssey<br></h4><img src="../Switchimg/mario1.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h6>Sonic Forces<br></h6><img src="../Switchimg/sonic1.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h5>The Elder Scrolls:Skyrim<br></h5><img src="../Switchimg/skyrim1.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h4>Mario Kart 8 Deluxe<br></h4><img src="../Switchimg/mcart1.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="">
+                    <h5>Legend of Zelda:BotW<br></h5><img src="../Switchimg/zelda1.jpg" alt=""></a>
+            </li>
+        </ol>
+
+    </section>
+
+    <aside>
+        <!--all news articles belong to gamespot.com-->
+        <img src="news.jpg" alt="" usemap="#news1">
+
+        <map name="news1">
+            <area shape="rect" coords="0,0,511,101" href="https://www.gamespot.com/articles/how-cupheads-devs-gambled-on-a-dream/1100-6454860/" alt="">
+            <area shape="rect" coords="0,102,511,211" href="https://www.gamespot.com/articles/call-of-duty-ww2-guides-tips-and-tricks/1100-6454867/" alt="">
+            <area shape="rect" coords="0,212,511,321" href="https://www.gamespot.com/articles/star-wars-battlefront-2-how-does-progression-work/1100-6454866/" alt="">
+            <area shape="rect" coords="0,322,511,430" href="https://www.gamespot.com/articles/star-wars-battlefront-2s-loot-crates-prices-reveal/1100-6454786/" alt="">
+            <area shape="rect" coords="0,431,511,550" href="https://www.gamespot.com/articles/watch-30-minutes-of-switchs-xenoblade-chronicles-2/1100-6454798/" alt="">
+        </map>
+        <!--playlist made by The Know = youtube.com/theknow-->
+        <div>
+            <iframe width="500" height="500" src="https://www.youtube.com/embed/?listType=playlist&list=PLdBe6gw9Ydok7DM7HaEyPBnRSM5K0hWA5" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+        </aside>
+
+        <footer> ©1999-2017 Gamestop - <a href="">About Us</a> <a href="">Contact Us</a> - Designed by Kellen Rouff</footer>
+
+</body>
+
+
+
+</html>

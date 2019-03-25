@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(149, 240, 217);
+}
+
+header {
+    display: block;
+    background-color: white;
+}
+
+
+/*horizontal nav */
+
+nav {
+    background-color: rgb(58, 55, 53);
+}
+
+nav ul li {
+    width: 12%;
+    font: bold 20px sans-serif;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 15px;
+    background-color: rgb(58, 55, 53);
+}
+
+nav li a {
+    color: white;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    width: 800px;
+    z-index: 10;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    display: none;
+}
+
+nav ul li ul li {
+    background: rgb(85, 85, 85);
+    display: block;
+}
+
+nav ul li ul li:hover {
+    background: rgb(102, 102, 102);
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+
+/*slideshow*/
+
+#slider {
+    position: relative;
+    width: 947px;
+    height: 301px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+/*section*/
+
+section {
+    width: 100%;
+}
+
+section ol {
+    list-style: none;
+}
+
+section ol li a {
+    margin-left: -10px;
+    width: 110%;
+    font-size: large;
+    color: black;
+    display: block;
+}
+
+#ps4 ol li a:hover {
+    color: blue;
+}
+
+#xbox ol li a:hover {
+    color: green;
+}
+
+#switch ol li a:hover {
+    color: red;
+}
+
+section ol li a img {
+    height: 50px;
+    width: 40px;
+    margin-left: 50px;
+}
+
+section h1,
+h2,
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6em;
+}
+
+section h1 {
+    color: blue;
+}
+
+section h2 {
+    color: green
+}
+
+section h3 {
+    color: red;
+}
+
+section h4 {
+    margin-left: 10px;
+    font-size: medium;
+}
+
+section h5 {
+    font-size: medium;
+    margin-left: -11px;
+}
+
+section h6 {
+    font-size: medium;
+    margin-left: 27px;
+}
+
+#ps4 {
+    position: absolute;
+    text-decoration: none;
+    float: left;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+
+#ps4 h1 img {
+    width: 200px;
+    height: 100px;
+    margin-left: -30px;
+}
+
+#xbox {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+#xbox h2 img {
+    width: 200px;
+    height: 100px;
+    margin-left: -30px;
+}
+
+#switch {
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-left: 1020px;
+}
+
+#switch h3 img {
+    width: 200px;
+    height: 100px;
+    margin-left: -35px;
+}
+
+
+/*aside*/
+
+aside img {
+    clear: both;
+    float: left;
+    margin-left: 180px;
+    width: 512px;
+    height: 546px;
+}
+
+aside div {
+    position: relative;
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+}
+
+
+/* Footer */
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: rgb(58, 55, 53);
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(255, 251, 0);
+}
